@@ -1,11 +1,29 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="第 1 页" id="F_NSMGxIzK2aPqWop-WH">
-    <mxGraphModel dx="1266" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1013" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mXxrbGlmwr1-6T_xw9jQ-1" value="Drain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="150" width="120" height="60" as="geometry" />
+        <mxCell id="mXxrbGlmwr1-6T_xw9jQ-14" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mXxrbGlmwr1-6T_xw9jQ-15" value="预处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="147.5" y="180" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mXxrbGlmwr1-6T_xw9jQ-16" value="ip 替换等，提取Content" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="185" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mXxrbGlmwr1-6T_xw9jQ-17" value="粗粒度分割&lt;div&gt;&quot;空格解析”&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="270" width="92" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mXxrbGlmwr1-6T_xw9jQ-18" value="判断长度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="152.5" y="380" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mXxrbGlmwr1-6T_xw9jQ-19" value="多层解析算法" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="30" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mXxrbGlmwr1-6T_xw9jQ-20" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="707" y="210" width="20" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
