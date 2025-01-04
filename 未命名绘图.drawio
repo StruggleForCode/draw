@@ -69,7 +69,7 @@
         <mxCell id="ZSUmyzXB2fES_6F9nTxg-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZSUmyzXB2fES_6F9nTxg-83" target="ZSUmyzXB2fES_6F9nTxg-89">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZSUmyzXB2fES_6F9nTxg-83" value="比较找到的日志模板与现有日志序列进行模版提取，并对token进行细粒度划分" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-83" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;比较找到的日志模板与现有日志序列进行模版提取，并对token进行细粒度划分&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="285" y="760" width="148" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ZSUmyzXB2fES_6F9nTxg-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZSUmyzXB2fES_6F9nTxg-89" target="ZSUmyzXB2fES_6F9nTxg-93">
