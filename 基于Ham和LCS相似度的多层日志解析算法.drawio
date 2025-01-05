@@ -1,0 +1,651 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.0.3 Chrome/130.0.6723.137 Electron/33.2.1 Safari/537.36" version="26.0.3">
+  <diagram name="第 1 页" id="F_NSMGxIzK2aPqWop-WH">
+    <mxGraphModel dx="2110" dy="1287" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-161" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;shadow=0;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;fontStyle=1;textShadow=0;horizontal=1;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=Comic Sans MS;fontSize=12;fontColor=#333333;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="-180" y="190" width="1200" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-204" value="&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font&gt;&lt;font style=&quot;color: rgb(8, 8, 8);&quot;&gt;Token细粒度解析 &lt;/font&gt;getTemplate&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;shadow=0;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;fontStyle=1;textShadow=0;horizontal=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Comic Sans MS;fontSize=12;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="370" width="335" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-144" value="&lt;div style=&quot;&quot;&gt;&lt;font&gt;token细粒度解析&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font&gt;基于LCS的token模板提取&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;shadow=0;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;fontStyle=1;textShadow=0;horizontal=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="210" y="710" width="235" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-143" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font&gt;第二层解析&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font&gt;基于前缀树的LCS算法解析&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=right;shadow=0;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;fontStyle=1;textShadow=0;horizontal=1;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="545" y="380" width="280" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-142" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;第一层解析&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;基于固定深度解析树解析&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;shadow=0;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;fontStyle=1;textShadow=0;horizontal=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;dashed=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="210" y="380" width="245" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="mXxrbGlmwr1-6T_xw9jQ-19" value="多层解析&lt;div&gt;第一层 固定深度树解析 类似Drain算法&lt;/div&gt;&lt;div&gt;第二层 LCS解析&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="385" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-2" value="&lt;div&gt;&lt;div&gt;可变长日志解析&lt;/div&gt;&lt;div&gt;复杂度降低&lt;/div&gt;&lt;/div&gt;基于token的细粒度解析&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="688.5" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-59" value="粗粒度日志解析， 细粒度日志模板提取" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="885" y="28" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-69" target="ZSUmyzXB2fES_6F9nTxg-71" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-69" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="314" y="260" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-71" target="ZSUmyzXB2fES_6F9nTxg-73" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-71" value="预处理" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="311.5" y="330" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-73" target="ZSUmyzXB2fES_6F9nTxg-75" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-73" value="日志序列粗粒度分割&lt;div&gt;&quot;&lt;b style=&quot;color: rgb(0, 0, 0); text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;&lt;font&gt;&lt;i&gt;D&lt;/i&gt;&lt;sub style=&quot;font-style: italic;&quot;&gt;s&lt;/sub&gt;&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;解析”&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="294" y="430" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-75" target="ZSUmyzXB2fES_6F9nTxg-81" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-75" value="&lt;font&gt;基于固定深度的汉明相似度的解析，查找rootHamNode节点&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="302.75" y="540" width="111.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-77" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;div style=&quot;color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); font-size: 9.8pt; text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="786.5" y="542.06" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-78" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-81" target="ZSUmyzXB2fES_6F9nTxg-83" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-81" target="ZSUmyzXB2fES_6F9nTxg-97" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-139" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;" parent="ZSUmyzXB2fES_6F9nTxg-138" vertex="1" connectable="0">
+          <mxGeometry x="-0.2133" y="-2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-81" value="是否找到模板" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="314" y="630" width="88.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-83" target="ZSUmyzXB2fES_6F9nTxg-89" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-83" value="&lt;font&gt;比较找到的日志模板与现有日志序列进行模版提取，并对token进行&lt;/font&gt;&lt;b style=&quot;color: rgb(0, 0, 0); text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;&lt;b style=&quot;color: rgb(0, 0, 0); font-style: normal; background-color: rgb(251, 251, 251);&quot;&gt;&lt;i&gt;&lt;font&gt;D&lt;sub&gt;a&lt;/sub&gt;&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;&lt;/span&gt;&lt;/b&gt;&lt;font&gt;细粒度划分&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="285" y="760" width="148" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-89" target="ZSUmyzXB2fES_6F9nTxg-93" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-86" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;" parent="ZSUmyzXB2fES_6F9nTxg-85" vertex="1" connectable="0">
+          <mxGeometry x="-0.2075" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-123" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-89" target="ZSUmyzXB2fES_6F9nTxg-91" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-141" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;" parent="ZSUmyzXB2fES_6F9nTxg-123" vertex="1" connectable="0">
+          <mxGeometry x="-0.5404" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-89" value="模板是否有变化" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="311.5" y="860" width="95" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-91" target="ZSUmyzXB2fES_6F9nTxg-111" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-91" value="把这一条日志id增加到相应模板序列里面" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="493" y="980" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-136" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-93" target="ZSUmyzXB2fES_6F9nTxg-91" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-93" value="&lt;font&gt;更新LogCluster&lt;/font&gt;&lt;div&gt;&lt;font&gt;rootHamNode、rootLCSNode&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="308.3700000000001" y="977.8100000000001" width="100" height="54.37" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-97" target="ZSUmyzXB2fES_6F9nTxg-101" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-116" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;" parent="ZSUmyzXB2fES_6F9nTxg-113" vertex="1" connectable="0">
+          <mxGeometry x="-0.4219" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-97" target="ZSUmyzXB2fES_6F9nTxg-91" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="563" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-132" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;" parent="ZSUmyzXB2fES_6F9nTxg-125" vertex="1" connectable="0">
+          <mxGeometry x="-0.8879" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-97" value="&lt;font&gt;查找rootLCSNode&lt;/font&gt;&lt;div&gt;&lt;font&gt;前缀树&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;中是否&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font&gt;有相应模板&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="633" y="446.56" width="171" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-101" target="ZSUmyzXB2fES_6F9nTxg-105" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-117" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;" parent="ZSUmyzXB2fES_6F9nTxg-114" vertex="1" connectable="0">
+          <mxGeometry x="-0.0372" y="-3" relative="1" as="geometry">
+            <mxPoint x="-3" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-127" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-101" target="ZSUmyzXB2fES_6F9nTxg-91" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="563" y="614" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-133" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;" parent="ZSUmyzXB2fES_6F9nTxg-127" vertex="1" connectable="0">
+          <mxGeometry x="-0.8699" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-101" value="&lt;font&gt;查找LogCluster中&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font&gt;是否有相应模板&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="635.5" y="582.06" width="166" height="63.75" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-115" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-105" target="ZSUmyzXB2fES_6F9nTxg-110" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-118" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;" parent="ZSUmyzXB2fES_6F9nTxg-115" vertex="1" connectable="0">
+          <mxGeometry x="-0.1847" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-105" target="ZSUmyzXB2fES_6F9nTxg-91" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="563" y="742" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-134" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;" parent="ZSUmyzXB2fES_6F9nTxg-130" vertex="1" connectable="0">
+          <mxGeometry x="-0.8455" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-105" value="&lt;font&gt;通过LCS&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;算法&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;查找&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font&gt;LogCluster中&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font&gt;最相似的模板&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="633" y="699.06" width="172" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-110" target="ZSUmyzXB2fES_6F9nTxg-91" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="563" y="869" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-146" value="" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;shadow=0;strokeColor=default;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;fillColor=default;" parent="ZSUmyzXB2fES_6F9nTxg-131" vertex="1" connectable="0">
+          <mxGeometry x="-0.4265" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-110" target="ZSUmyzXB2fES_6F9nTxg-91" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-148" value="" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;shadow=0;strokeColor=default;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;fillColor=default;" parent="ZSUmyzXB2fES_6F9nTxg-147" vertex="1" connectable="0">
+          <mxGeometry x="-0.3967" y="6" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-110" value="&lt;font&gt;新增LogCluster&lt;/font&gt;&lt;div&gt;&lt;font&gt;rootHamNode、rootLCSNode新增节点&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="658.5" y="839.06" width="121" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-111" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;" parent="1" vertex="1">
+          <mxGeometry x="518" y="1060" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-149" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;基于Ham和LCS相似度的多层日志解析算法&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="240" y="204" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-157" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;curved=0;dashed=1;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-151" target="ZSUmyzXB2fES_6F9nTxg-97" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-151" value="&lt;span style=&quot;&quot;&gt;&lt;font&gt;判断标准：&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;font&gt;固定内容长度超过&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;font&gt;阈值 tau * length&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;shadow=0;strokeColor=#d6b656;align=left;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=12;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="875" y="460.31" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-158" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;dashed=1;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-155" target="ZSUmyzXB2fES_6F9nTxg-101" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-155" value="&lt;span style=&quot;&quot;&gt;判断标准：&lt;/span&gt;&lt;div style=&quot;&quot;&gt;简单循环匹配，判&lt;/div&gt;&lt;div style=&quot;&quot;&gt;断是否有相似模版&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;shadow=0;strokeColor=#d6b656;align=left;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=12;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="875" y="583.9399999999999" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-159" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;dashed=1;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-156" target="ZSUmyzXB2fES_6F9nTxg-105" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-156" value="&lt;span style=&quot;&quot;&gt;&lt;font&gt;判断标准：&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;&lt;font&gt;LCS查找最长公共&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;&lt;font&gt;子序列，查找相似模版&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;shadow=0;strokeColor=#d6b656;align=left;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=12;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="875" y="711.56" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-162" value="&lt;div&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;数据结构说明：&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;LogCluster：记录日志模板&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;LCSNode:&amp;nbsp; &amp;nbsp; 前缀树根节点&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;HamNode:&amp;nbsp; &amp;nbsp;固定深度解析树根节点&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 9.8pt;&quot;&gt;&lt;font&gt;depth: 固定深度解析树的深度&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 9.8pt;&quot;&gt;&lt;font&gt;st: ham相似度的阈值&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#080808&quot;&gt;&lt;span style=&quot;font-size: 13.0667px; background-color: rgb(255, 255, 255);&quot;&gt;tau：LCS相似度阈值&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="215" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-191" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-164" target="ZSUmyzXB2fES_6F9nTxg-187" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-192" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;shadow=0;strokeColor=default;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;fillColor=default;" parent="ZSUmyzXB2fES_6F9nTxg-191" vertex="1" connectable="0">
+          <mxGeometry x="-0.1183" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-193" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-164" target="ZSUmyzXB2fES_6F9nTxg-166" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-164" value="两个Token&lt;div&gt;是否相同&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="42.5" y="535" width="95" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-194" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-166" target="ZSUmyzXB2fES_6F9nTxg-177" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-199" value="" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;shadow=0;strokeColor=default;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;fillColor=default;" parent="ZSUmyzXB2fES_6F9nTxg-194" vertex="1" connectable="0">
+          <mxGeometry x="-0.2049" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-166" value="对Token进行&lt;b style=&quot;color: rgb(0, 0, 0); background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;&lt;b style=&quot;color: rgb(0, 0, 0); font-style: normal; background-color: rgb(251, 251, 251);&quot;&gt;&lt;i&gt;&lt;font&gt;D&lt;sub&gt;a&lt;/sub&gt;&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;&lt;/span&gt;&lt;/b&gt;细粒度拆分" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="47.5" y="675" width="85" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-186" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-170" target="ZSUmyzXB2fES_6F9nTxg-164" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-170" value="对使用&lt;b&gt;&lt;i&gt;D&lt;/i&gt;&lt;sub style=&quot;font-style: italic;&quot;&gt;s&lt;/sub&gt;&lt;/b&gt;分割的&lt;b&gt;&lt;i&gt;e&lt;/i&gt;&lt;sub style=&quot;font-style: italic;&quot;&gt;1,&amp;nbsp;&lt;/sub&gt;&lt;i&gt;e&lt;/i&gt;&lt;sub style=&quot;font-style: italic;&quot;&gt;2&lt;/sub&gt;&lt;/b&gt;每一个token进行比较" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="30" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-171" value="&lt;b style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;i style=&quot;forced-color-adjust: none;&quot;&gt;D&lt;/i&gt;&lt;sub style=&quot;forced-color-adjust: none; font-style: italic;&quot;&gt;s&lt;/sub&gt;&lt;/font&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="885" y="90" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-172" value="&lt;b style=&quot;background-color: rgb(251, 251, 251); color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;&lt;b style=&quot;color: rgb(0, 0, 0); font-style: normal; background-color: rgb(251, 251, 251);&quot;&gt;&lt;i&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;D&lt;sub&gt;a&lt;/sub&gt;&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="965" y="90" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-196" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-177" target="ZSUmyzXB2fES_6F9nTxg-195" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-200" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;shadow=0;strokeColor=default;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;fillColor=default;" parent="ZSUmyzXB2fES_6F9nTxg-196" vertex="1" connectable="0">
+          <mxGeometry x="-0.0538" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-197" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-177" target="ZSUmyzXB2fES_6F9nTxg-184" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-201" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;shadow=0;strokeColor=default;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;fillColor=default;" parent="ZSUmyzXB2fES_6F9nTxg-197" vertex="1" connectable="0">
+          <mxGeometry x="-0.3209" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-177" value="剪枝：&lt;div&gt;判断拆分后&lt;/div&gt;&lt;div&gt;长度是否&amp;gt;1&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="33.25" y="795.01" width="113.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-179" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="55" y="380" as="sourcePoint" />
+            <mxPoint x="55" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-181" value="&lt;b style=&quot;text-align: left; text-wrap-mode: wrap; background-color: rgb(251, 251, 251);&quot;&gt;&lt;i&gt;e&lt;/i&gt;&lt;sub style=&quot;font-style: italic;&quot;&gt;1&lt;/sub&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;shadow=0;strokeColor=default;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;fillColor=default;" parent="ZSUmyzXB2fES_6F9nTxg-179" vertex="1" connectable="0">
+          <mxGeometry x="-0.2649" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-180" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="115" y="380" as="sourcePoint" />
+            <mxPoint x="115" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-182" value="&lt;b style=&quot;text-align: left; text-wrap-mode: wrap; background-color: rgb(251, 251, 251);&quot;&gt;&lt;i&gt;e&lt;/i&gt;&lt;sub style=&quot;font-style: italic;&quot;&gt;2&lt;/sub&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;shadow=0;strokeColor=default;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;fillColor=default;" parent="ZSUmyzXB2fES_6F9nTxg-180" vertex="1" connectable="0">
+          <mxGeometry x="-0.1246" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-198" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-184" target="ZSUmyzXB2fES_6F9nTxg-185" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-184" value="通过LCS提取最长公共子序列" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="44.13000000000011" y="930" width="91.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-203" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-185" target="ZSUmyzXB2fES_6F9nTxg-202" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-185" value="使用倒排索引提取token公共模板" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="44.13000000000011" y="1025" width="91.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-187" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 9.8pt;&quot;&gt;&lt;div&gt;retVal.append(token)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="560" width="140" height="37.35" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-195" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 9.8pt;&quot;&gt;&lt;div&gt;retVal.append(&quot;&amp;lt;*&amp;gt;&quot;)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="820" width="140" height="39.85" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-202" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 9.8pt;&quot;&gt;&lt;div&gt;retVal.append&lt;/div&gt;&lt;div&gt;(&quot;commonTemplate&quot;)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Comic Sans MS;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="1030" width="140" height="42.42" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-205" value="&lt;div style=&quot;&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;font style=&quot;color: rgb(8, 8, 8);&quot;&gt;Token细粒度解析 &lt;/font&gt;getTemplate&lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;shadow=0;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;fontStyle=1;textShadow=0;horizontal=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Helvetica;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="390" width="410" height="725" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-206" value="&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;shadow=0;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;fontStyle=1;textShadow=0;horizontal=1;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=Helvetica;fontSize=12;fontColor=#333333;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="1800" y="190" width="860" height="930" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-207" value="&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;token细粒度解析&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;基于LCS的token模板提取&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;shadow=0;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;fontStyle=1;textShadow=0;horizontal=1;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="1850" y="710" width="235" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-208" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;第二层解析&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;基于前缀树的LCS算法解析&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=right;shadow=0;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;fontStyle=1;textShadow=0;horizontal=1;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="2185" y="380" width="280" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-209" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;第一层解析&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;固定深度解析树解析&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;shadow=0;labelPosition=center;verticalLabelPosition=middle;verticalAlign=top;fontStyle=1;textShadow=0;horizontal=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="1850" y="380" width="245" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-210" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-211" target="ZSUmyzXB2fES_6F9nTxg-213" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-211" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2162.5" y="260" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-212" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-213" target="ZSUmyzXB2fES_6F9nTxg-215" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-213" value="预处理" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2160" y="335" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-214" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-215" target="ZSUmyzXB2fES_6F9nTxg-217" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-215" value="日志序列粗粒度分割&lt;div&gt;&quot;&lt;b style=&quot;color: rgb(0, 0, 0); text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;i&gt;D&lt;/i&gt;&lt;sub style=&quot;font-style: italic;&quot;&gt;s&lt;/sub&gt;&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;解析”&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1934" y="430" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-216" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-217" target="ZSUmyzXB2fES_6F9nTxg-222" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-217" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;基于固定深度的汉明相似度的解析，查找rootHamNode节点&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1942.75" y="540" width="111.25" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-218" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;&quot;&gt;&lt;div style=&quot;color: light-dark(rgb(8, 8, 8), rgb(230, 230, 230)); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt; text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="2426.5" y="532.06" width="20" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-219" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-222" target="ZSUmyzXB2fES_6F9nTxg-224" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-220" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-222" target="ZSUmyzXB2fES_6F9nTxg-238" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-221" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZSUmyzXB2fES_6F9nTxg-220" vertex="1" connectable="0">
+          <mxGeometry x="-0.2133" y="-2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-222" value="是否找到模板" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1954" y="630" width="88.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-223" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-224" target="ZSUmyzXB2fES_6F9nTxg-229" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-224" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;比较找到的日志模板与现有日志序列进行模版提取，并对token进行&lt;/font&gt;&lt;b style=&quot;color: rgb(0, 0, 0); text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;&lt;b style=&quot;color: rgb(0, 0, 0); font-style: normal; background-color: rgb(251, 251, 251);&quot;&gt;&lt;i&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;D&lt;sub&gt;a&lt;/sub&gt;&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;&lt;/span&gt;&lt;/b&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;细粒度划分&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1925" y="760" width="148" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-225" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-229" target="ZSUmyzXB2fES_6F9nTxg-233" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-226" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZSUmyzXB2fES_6F9nTxg-225" vertex="1" connectable="0">
+          <mxGeometry x="-0.2075" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-227" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-229" target="ZSUmyzXB2fES_6F9nTxg-231" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-228" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZSUmyzXB2fES_6F9nTxg-227" vertex="1" connectable="0">
+          <mxGeometry x="-0.5404" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-229" value="模板是否有变化" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1951.5" y="860" width="95" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-230" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-231" target="ZSUmyzXB2fES_6F9nTxg-254" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-231" value="把这一条日志id增加到相应模板序列里面" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2133" y="980" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-232" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-233" target="ZSUmyzXB2fES_6F9nTxg-231" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-233" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;更新LogCluster&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;rootHamNode、rootLCSNode&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1948.3700000000001" y="977.8100000000001" width="100" height="54.37" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-234" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-238" target="ZSUmyzXB2fES_6F9nTxg-243" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-235" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZSUmyzXB2fES_6F9nTxg-234" vertex="1" connectable="0">
+          <mxGeometry x="-0.4219" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-238" target="ZSUmyzXB2fES_6F9nTxg-231" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2203" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-237" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZSUmyzXB2fES_6F9nTxg-236" vertex="1" connectable="0">
+          <mxGeometry x="-0.8879" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-238" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;查找rootLCSNode&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;前缀树&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;中是否&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;有相应模板&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2273" y="446.56" width="171" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-239" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-243" target="ZSUmyzXB2fES_6F9nTxg-248" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-240" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZSUmyzXB2fES_6F9nTxg-239" vertex="1" connectable="0">
+          <mxGeometry x="-0.0372" y="-3" relative="1" as="geometry">
+            <mxPoint x="-3" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-241" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-243" target="ZSUmyzXB2fES_6F9nTxg-231" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2235" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2203" y="614" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-242" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZSUmyzXB2fES_6F9nTxg-241" vertex="1" connectable="0">
+          <mxGeometry x="-0.8699" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-243" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;查找LogCluster中&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;是否有相应模板&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2275.5" y="582.06" width="166" height="63.75" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-244" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-248" target="ZSUmyzXB2fES_6F9nTxg-253" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-245" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZSUmyzXB2fES_6F9nTxg-244" vertex="1" connectable="0">
+          <mxGeometry x="-0.1847" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-246" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-248" target="ZSUmyzXB2fES_6F9nTxg-231" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2203" y="742" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-247" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="ZSUmyzXB2fES_6F9nTxg-246" vertex="1" connectable="0">
+          <mxGeometry x="-0.8455" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-248" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;通过LCS&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;算法&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;查找&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;LogCluster中&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;最相似的模板&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2273" y="699.06" width="172" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-249" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-253" target="ZSUmyzXB2fES_6F9nTxg-231" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2205" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2203" y="869" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-250" value="" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;shadow=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="ZSUmyzXB2fES_6F9nTxg-249" vertex="1" connectable="0">
+          <mxGeometry x="-0.4265" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-251" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-253" target="ZSUmyzXB2fES_6F9nTxg-231" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-252" value="" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;shadow=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="ZSUmyzXB2fES_6F9nTxg-251" vertex="1" connectable="0">
+          <mxGeometry x="-0.3967" y="6" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-253" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;新增LogCluster&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;rootHamNode、rootLCSNode新增节点&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2298.5" y="839.06" width="121" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-254" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="2158" y="1060" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-255" value="&lt;font face=&quot;Comic Sans MS&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;基于Ham和LCS相似度的多层日志解析算法&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="2030" y="200" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-256" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;curved=0;dashed=1;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-257" target="ZSUmyzXB2fES_6F9nTxg-238" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-257" value="&lt;span style=&quot;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;判断标准：&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;固定内容长度超过&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;阈值 tau * length&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;shadow=0;strokeColor=#d6b656;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="2515" y="460.31" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-258" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;dashed=1;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-259" target="ZSUmyzXB2fES_6F9nTxg-243" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-259" value="&lt;span style=&quot;&quot;&gt;判断标准：&lt;/span&gt;&lt;div style=&quot;&quot;&gt;简单循环匹配，判&lt;/div&gt;&lt;div style=&quot;&quot;&gt;断是否有相似模版&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;shadow=0;strokeColor=#d6b656;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="2515" y="583.9399999999999" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-260" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;dashed=1;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-261" target="ZSUmyzXB2fES_6F9nTxg-248" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-261" value="&lt;span style=&quot;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;判断标准：&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;LCS查找最长公共&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;子序列，查找相似模版&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;shadow=0;strokeColor=#d6b656;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="2515" y="711.56" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-262" value="&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;数据结构说明：&lt;/font&gt;&lt;/div&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;LogCluster：记录日志模板&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot; style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;LCSNode:&amp;nbsp; &amp;nbsp; 前缀树根节点&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;HamNode:&amp;nbsp; &amp;nbsp;固定深度解析树根节点&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;depth: 固定深度解析树的深度&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-size: 9.8pt;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;st: ham相似度的阈值&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font face=&quot;Comic Sans MS&quot; color=&quot;#080808&quot;&gt;&lt;span style=&quot;font-size: 13.0667px; background-color: rgb(255, 255, 255);&quot;&gt;tau：LCS相似度阈值&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1815" y="215" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-263" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-266" target="ZSUmyzXB2fES_6F9nTxg-285" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-264" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;shadow=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="ZSUmyzXB2fES_6F9nTxg-263" vertex="1" connectable="0">
+          <mxGeometry x="-0.1183" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-265" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-266" target="ZSUmyzXB2fES_6F9nTxg-269" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-266" value="两个Token&lt;div&gt;是否相同&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1657.5" y="505" width="95" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-267" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-269" target="ZSUmyzXB2fES_6F9nTxg-276" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-268" value="" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;shadow=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="ZSUmyzXB2fES_6F9nTxg-267" vertex="1" connectable="0">
+          <mxGeometry x="-0.2049" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-269" value="对Token进行&lt;b style=&quot;color: rgb(0, 0, 0); background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;font-style: italic;&quot;&gt;&lt;b style=&quot;color: rgb(0, 0, 0); font-style: normal; background-color: rgb(251, 251, 251);&quot;&gt;&lt;i&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;D&lt;sub&gt;a&lt;/sub&gt;&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;&lt;/span&gt;&lt;/b&gt;细粒度拆分" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1662.5" y="645" width="85" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-270" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-271" target="ZSUmyzXB2fES_6F9nTxg-266" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-271" value="对使用&lt;b&gt;&lt;i&gt;D&lt;/i&gt;&lt;sub style=&quot;font-style: italic;&quot;&gt;s&lt;/sub&gt;&lt;/b&gt;分割的&lt;b&gt;&lt;i&gt;e&lt;/i&gt;&lt;sub style=&quot;font-style: italic;&quot;&gt;1,&amp;nbsp;&lt;/sub&gt;&lt;i&gt;e&lt;/i&gt;&lt;sub style=&quot;font-style: italic;&quot;&gt;2&lt;/sub&gt;&lt;/b&gt;每一个token进行比较" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1645" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-272" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-276" target="ZSUmyzXB2fES_6F9nTxg-286" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-273" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;shadow=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="ZSUmyzXB2fES_6F9nTxg-272" vertex="1" connectable="0">
+          <mxGeometry x="-0.0538" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-274" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-276" target="ZSUmyzXB2fES_6F9nTxg-282" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-275" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;shadow=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="ZSUmyzXB2fES_6F9nTxg-274" vertex="1" connectable="0">
+          <mxGeometry x="-0.3209" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-276" value="剪枝：&lt;div&gt;判断拆分后&lt;/div&gt;&lt;div&gt;长度是否&amp;gt;1&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1648.25" y="765.01" width="113.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-277" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1670" y="350" as="sourcePoint" />
+            <mxPoint x="1670" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-278" value="&lt;b style=&quot;text-align: left; text-wrap-mode: wrap; background-color: rgb(251, 251, 251);&quot;&gt;&lt;i&gt;e&lt;/i&gt;&lt;sub style=&quot;font-style: italic;&quot;&gt;1&lt;/sub&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;shadow=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="ZSUmyzXB2fES_6F9nTxg-277" vertex="1" connectable="0">
+          <mxGeometry x="-0.2649" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-279" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1730" y="350" as="sourcePoint" />
+            <mxPoint x="1730" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-280" value="&lt;b style=&quot;text-align: left; text-wrap-mode: wrap; background-color: rgb(251, 251, 251);&quot;&gt;&lt;i&gt;e&lt;/i&gt;&lt;sub style=&quot;font-style: italic;&quot;&gt;2&lt;/sub&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;shadow=0;strokeColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="ZSUmyzXB2fES_6F9nTxg-279" vertex="1" connectable="0">
+          <mxGeometry x="-0.1246" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-281" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-282" target="ZSUmyzXB2fES_6F9nTxg-284" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-282" value="通过LCS提取最长公共子序列" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1659.13" y="900" width="91.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-283" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-284" target="ZSUmyzXB2fES_6F9nTxg-287" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-284" value="使用倒排索引提取token公共模板" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1659.13" y="995" width="91.75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-285" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre&gt;retVal.append(token)&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="527.6600000000001" width="160" height="39.69" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-286" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre&gt;retVal.append(&quot;&amp;lt;*&amp;gt;&quot;)&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="790.16" width="160" height="39.69" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-287" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;pre&gt;retVal.append&lt;/pre&gt;&lt;pre&gt;(&quot;commonTemplate&quot;)&lt;/pre&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeColor=default;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="997.5799999999999" width="160" height="44.84" as="geometry" />
+        </mxCell>
+        <mxCell id="ZSUmyzXB2fES_6F9nTxg-289" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.688;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;dashed=1;" parent="1" source="ZSUmyzXB2fES_6F9nTxg-144" target="ZSUmyzXB2fES_6F9nTxg-204" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="190" y="780" />
+              <mxPoint x="190" y="350" />
+              <mxPoint x="70" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uGolVQ_ZOv4tpv9q02Cq-1" value="test" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-48" y="43" width="37" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
